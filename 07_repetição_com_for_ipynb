@@ -1,0 +1,94 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPHF03eDZyuNSg7Q4lYfMSn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SenaraSilva/SenaraESA/blob/main/07_repeti%C3%A7%C3%A3o_com_for_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HlBt9TJpgnGd",
+        "outputId": "904e58dd-e3a2-4bd5-b60d-da8f148a6e7e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1: spam\n",
+            "2: eggs\n",
+            "3: bacon\n"
+          ]
+        }
+      ],
+      "source": [
+        "contador = 0\n",
+        "for x in ['spam' , 'eggs' , 'bacon']:\n",
+        "    contador += 1\n",
+        "    print (f\"{contador}: {x}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "9w4X6-cDigSz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "contador = 0\n",
+        "for x in ['spam' , 'eggs' , 'bacon']:\n",
+        "\n",
+        "  print (f\"{contador}: {x}\")\n",
+        "  contador += 1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3cJ13qgUimkS",
+        "outputId": "a14ec1a3-8473-4a9c-f323-ca2c99424cd7"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0: spam\n",
+            "1: eggs\n",
+            "2: bacon\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
