@@ -1,0 +1,144 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNp3G0J9PNhewuxAC8+p2HS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SenaraSilva/SenaraESA/blob/main/ATIVIDA%2004%3A%20Lista%20de%20Exerc%C3%ADcos%20de%20Revis%C3%A3o\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R87JsVdx-zyn",
+        "outputId": "5be18ab3-3cc1-454c-e8f9-412db92ae664"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá mundo\n"
+          ]
+        }
+      ],
+      "source": [
+        "#1. Escreva um programa que imprima \"Olá, Mundo!\" na tela.\n",
+        "print (\"Olá mundo\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#2. Crie um programa que leia tês notas de um aluno e calcule a média final.\n",
+        "print(\"calculadora de média de alunos\")\n",
+        "n1 = float(input(\"Digite a nota 1: \"))\n",
+        "n2 = float(input(\"Digite a nota 2: \"))\n",
+        "n3= float(input(\"Digite a nota 3: \"))\n",
+        "media = (n1 + n2 + n3) / 3\n",
+        "print(f\"A média final das notas é: {media: .2f}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PSlJovooFNjZ",
+        "outputId": "43d2f10b-f72b-41a1-eb11-8c9089060634"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "calculadora de média de alunos\n",
+            "Digite a nota 1: 5\n",
+            "Digite a nota 2: 6\n",
+            "Digite a nota 3: 9\n",
+            "A média final das notas é:  6.67\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3. Escreva um programa que calcule a média de notas, permitindo a entrada repetida de notas até que o usuáio indique que não seja mais inserir.\n",
+        "#programa para calcular a média de notas com entrada repetida\n",
+        "notas = []\n",
+        "while True :\n",
+        "  nota = input(\"Digite uma nota (ou ´sair´ para encerrar): \")\n",
+        "  if nota. lower() == \"sair\" :\n",
+        "    break\n",
+        "    try:\n",
+        "      nota = float(nota)\n",
+        "      notas.append(nota)\n",
+        "    except ValueError:\n",
+        "      print(\"Entrada inválida. Por favor, digite um número válido.\")\n",
+        "      if notas:\n",
+        "        media = sum(notas) / len(nota)\n",
+        "        print(f\"A média das notas é: {media: .2f}\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "--qdk_GBH-qm",
+        "outputId": "245d1eac-f77a-4d6c-8c05-b8f2c948fbad"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite uma nota (ou ´sair´ para encerrar): 8\n",
+            "Digite uma nota (ou ´sair´ para encerrar): 6\n",
+            "Digite uma nota (ou ´sair´ para encerrar): sair\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4. Crie um programa que leia três numeros e determine o maior deles.\n",
+        "n1 = input(\"Digite o numero 1:\")\n",
+        "n2 = input(\"Digite o numero 2:\")\n",
+        "n3 = input(\"Digite o numero 3:\")\n",
+        "if n1 > n2 and n1 . n3:\n",
+        "  maior = n2"
+      ],
+      "metadata": {
+        "id": "YWctHKQaO2bc"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
